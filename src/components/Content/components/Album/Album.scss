@@ -1,0 +1,43 @@
+.album {
+
+
+    &__info {
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    &__imgblock {}
+
+    &__img {
+        width: 135px;
+        height: 135px;
+        display: block;
+    }
+
+    &__info-meta {
+        width: calc(100% - 150px);
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__info-year {
+        color: #aaaaaa;
+        letter-spacing: 1px;
+    }
+
+    &__info-name {
+        color: white;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    &__actions {
+        margin-top: auto;
+        display: flex;
+    }
+
+    &__actions-btn {
+        margin-right: 10px;
+    }
+}

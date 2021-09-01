@@ -1,0 +1,13 @@
+.music {
+    &__artist-navigation {
+        width: 100%;
+        margin-top: auto;
+        position: relative;
+        z-index: 1;
+        background: rgba(24, 24, 24, 0.6);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,10 @@
+.music {
+    &__artist-navlist-item {}
+
+    &__artist-navlist-link {
+        display: block;
+        padding: 15px;
+        text-transform: uppercase;
+
+    }
+}

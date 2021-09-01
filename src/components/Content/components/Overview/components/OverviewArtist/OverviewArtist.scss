@@ -1,0 +1,48 @@
+.overview {
+
+
+    &__row {
+        display: flex;
+    }
+
+    &__artist {
+        padding: 15px;
+        width: 70%;
+    }
+
+    &__artist-title {}
+
+    &__latest {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    &__latest-imgblock {}
+
+    &__latest-img {
+        width: 75px;
+        height: 75px;
+        display: block;
+    }
+
+
+
+    &__latest-song {
+        width: calc(100% - 75px);
+        padding: 10px 15px;
+        background: #282828;
+        color: #aaaaaa;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__latest-song-name {
+        color: #c8c8c8;
+    }
+
+
+
+
+    &__latest-song-date {}
+}

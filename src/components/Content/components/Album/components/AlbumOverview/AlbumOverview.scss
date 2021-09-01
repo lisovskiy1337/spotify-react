@@ -1,0 +1,51 @@
+.album-overview {
+    padding: 15px;
+}
+
+.album {
+
+
+    &__head {
+        display: flex;
+        border-bottom: 1px solid #282828;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__head-title {}
+
+    &__head-view {
+        margin-left: auto;
+        display: flex;
+    }
+
+    &__head-view-btn {
+        position: relative;
+        z-index: 2;
+
+        &:hover::before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: #282828;
+        }
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+
+
+    }
+
+    &__head-view-icon {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}

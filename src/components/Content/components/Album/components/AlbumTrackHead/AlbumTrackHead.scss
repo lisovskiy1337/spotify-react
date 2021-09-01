@@ -1,0 +1,32 @@
+.album{
+    
+    &__tracks-head {
+        display: flex;
+    }
+
+    &__tracks-number {
+        margin-left: 10px;
+        font-style: italic;
+    }
+
+    &__tracks-title {
+        margin-left: 70px;
+        width: 45%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    &__tracks-time {
+        margin-left: auto;
+        font-size: 20px;
+    }
+
+    &__tracks-time-icon {}
+
+    &__tracks-popularity {
+        margin-left: 55px;
+        padding-right: 10px;
+    }
+
+    &__tracks-popularity-icon {}
+}

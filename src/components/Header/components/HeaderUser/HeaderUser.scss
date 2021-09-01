@@ -1,0 +1,21 @@
+.header {
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+
+    &__user-imgblock {
+        margin-right: 3px;
+    }
+
+    &__user-img {
+        max-width: 30px;
+        max-height: 30px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    &__user-info {
+        line-height: 150%;
+    }
+}

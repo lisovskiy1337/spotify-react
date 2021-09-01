@@ -1,0 +1,33 @@
+.header {
+    background: #282828;
+    border-bottom: 1px solid #181818;
+  
+    &__inner {
+      padding: 12.5px;
+      display: flex;
+      align-items: center;
+    }
+
+  
+  }
+  
+  
+  ion-icon {
+    font-size: 24px;
+    color: #aaaaaa;
+  
+    &:hover {
+      color: #fff;
+    }
+  }
+  
+  
+  .arrow-left {}
+  
+  .arrow-right {
+    color: #5e5e5e;
+  
+    &:hover {
+      color: #5e5e5e;
+    }
+  }
