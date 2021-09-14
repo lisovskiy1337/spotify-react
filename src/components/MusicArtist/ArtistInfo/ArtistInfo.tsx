@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button } from '../../../../UI/Button'
+
 import { IoIosPlay} from "react-icons/io";
+import { Button } from '../../UI/Button';
 import './ArtistInfo.scss'
 
 const MusicArtistInfo = () => {

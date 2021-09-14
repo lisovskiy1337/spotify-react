@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button } from '../../../UI/Button';
 import AlbumTrackList from './TrackList/TrackList';
 import './Album.scss'
+import { Button } from '../UI/Button';
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {IoMdList, IoIosApps} from "react-icons/io";
-import { Button } from '../../../../UI/Button';
+import { Button } from '../../UI/Button';
 import Album from '../Album';
 import './Overview.scss'
 
