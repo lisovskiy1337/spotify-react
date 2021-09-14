@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import cx from 'classnames';
 import './Button.scss'
+
 export type ButtonType = 'rect' | 'rounded';
 
 interface ButtonProps {

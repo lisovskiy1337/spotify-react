@@ -1,0 +1,22 @@
+.header {
+    &__search {
+        margin-left: 1%;
+    }
+
+    &__search-input {
+       
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .header{
+        &__search {
+            width: 65%;
+        }
+
+        &__search-input{
+            width: 100%;
+            background-size: 6%;
+        }
+    }
+}

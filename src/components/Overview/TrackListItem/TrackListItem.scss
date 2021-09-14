@@ -1,0 +1,59 @@
+.tracks {
+
+    &__list-item {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #282828;
+
+        &:hover {
+            background: #282828;
+        }
+    }
+
+    &__list-imgblock {}
+
+    &__list-img {
+        width: 42px;
+        height: 42px;
+    }
+
+    &__list-number {
+        margin-left: 10px;
+    }
+
+    &__list-added {}
+
+    &__list-added-icon {
+        font-size: 16px;
+        margin-left: 30px;
+        color: #c8c8c8;
+
+    }
+
+    &__list-title {
+        flex: 1;
+        margin-left: 30px;
+        color: white;
+    }
+
+    &__list-explicit {}
+
+
+
+
+    &__list-plays {
+        color: #aaaaaa;
+        margin-left: auto;
+        padding-right: 10px;
+    }
+}
+
+
+
+@media screen and(max-width: 450px) {
+    .tracks{
+        &__list-explicit {
+            display: none;
+        }
+    }
+}

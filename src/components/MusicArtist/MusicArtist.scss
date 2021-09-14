@@ -1,0 +1,81 @@
+.music {
+    width: 70%;
+    overflow-y: scroll;
+    max-height: 100vh;
+
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background: #373737;
+    }
+
+
+
+    &__artist {
+        height: 320px;
+        border-bottom: 1px solid #282828;
+        position: relative;
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/spotify_img_bground.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
+
+
+        &::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.15;
+            background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/g-eazy.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+        }
+    }
+
+    &__inner {
+        padding: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+
+}
+
+
+@media screen and(max-width: 768px) {
+    .music{
+        width: 100%;
+        overflow-y: initial;
+        max-height: initial;
+    }
+}
+
+@media screen and(max-width: 650px){
+    .music{
+
+        &__artist{
+            height: auto;
+        }
+
+        &__inner{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}

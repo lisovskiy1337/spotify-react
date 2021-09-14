@@ -1,0 +1,42 @@
+.sidebar{
+    &__navigation-list {
+        margin-bottom: 15px;
+        transition: all 2s;
+
+        & span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            transition: color 0.2s;
+
+            &:hover{
+                color: rgb(238, 238, 238);
+            }
+
+            & ion-icon {
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+@media screen  and(max-width:768px){
+    .sidebar{
+        &__navigation-list{
+            margin-bottom: 0;
+            
+
+            & span{
+                margin-bottom: 0;
+            }
+        }
+
+    }
+}

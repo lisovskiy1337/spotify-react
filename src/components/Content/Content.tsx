@@ -3,18 +3,20 @@ import React from 'react'
 import "./Content.scss"
 
 
-import Overview from './components/Overview/Overview';
-import MusicArtist from './components/MusicArtist/MusicArtist';
+
+import MusicArtist from '../MusicArtist/MusicArtist';
+import Overview from '../Overview/Overview';
+
 
 
 const Content = () => {
-    return (
-      <section className="music">
-        <MusicArtist/>
-        <Overview/>
-        
-      </section>
-    )
+  return (
+    <section className="music">
+      <MusicArtist />
+      <Overview />
+
+    </section>
+  )
 }
 
 export default Content

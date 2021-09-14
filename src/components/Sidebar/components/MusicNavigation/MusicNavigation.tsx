@@ -1,6 +1,6 @@
 import React from 'react'
-import SidebarNavigationList from '../SidebarNavigationList/SidebarNavigationList'
-import { SidebarNavigationListItemProps } from '../SidebarNavigationListItem/SidebarNavigationListItem'
+import SidebarNavigationList from '../NavigationList/NavigationList'
+import { SidebarNavigationListItemProps } from '../NavigationListItem/NavigationListItem'
 import {IoIosArrowDown, IoIosAlbums, IoMdPeople, IoMdRadio } from "react-icons/io";
 
 const MusicNavigation = () => {

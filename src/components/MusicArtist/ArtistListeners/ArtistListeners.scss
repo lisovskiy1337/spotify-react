@@ -1,0 +1,25 @@
+.music {
+    &__artist-listeners {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__artist-listeners-count,
+    &__artist-listeners-label {
+        text-align: right;
+        color: #aaaaaa;
+        font-weight: 100;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media screen and(max-width: 650px) {
+    .music {
+        &__artist-listeners-count,
+        &__artist-listeners-label {
+            text-align: center;
+        }
+    }
+}

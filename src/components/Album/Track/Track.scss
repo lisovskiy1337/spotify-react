@@ -1,0 +1,49 @@
+.album{
+ 
+    &__track {
+        border-top: 1px solid #282828;
+        height: 42px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        &:hover{
+            background: #282828;
+        }
+    }
+
+    &__track-number {
+        margin-left: 10px;
+        color: #aaaaaa;
+    }
+
+    &__track-added {
+        margin-left: 30px;
+    }
+
+    &__track-added-icon {
+
+        color: #c8c8c8;
+    }
+
+    &__track-title {
+        // width: 70%;
+        flex: 1;
+        margin-left: 20px;
+        color: #fff;
+    }
+
+    &__track-explicit {}
+
+    &__track-time {
+        margin-left: auto;
+        color: #aaaaaa;
+    }
+
+    &__track-popularity {
+        margin-left: 46px;
+        padding-right: 10px;
+        font-size: 20px;
+        color: #aaaaaa;
+    }
+}
